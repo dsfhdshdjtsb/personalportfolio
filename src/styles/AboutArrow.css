@@ -1,0 +1,24 @@
+.arrowAboutme img{
+    width: 100px;
+}
+.arrowAboutme{
+    margin-left: 15vw;
+    position: relative;
+    top:60px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.arrowAboutme p{
+    font-size:1.5rem;
+    font-weight:500;
+}
+@media(max-width:820px){
+    .arrowAboutme{
+        display:none;
+    }
+}
+
+

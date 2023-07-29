@@ -1,0 +1,12 @@
+.Socials img{
+    width:60px;
+    height:auto;
+    cursor:pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Socials{
+    position: relative;
+    top:15px;
+    display:flex;
+}
