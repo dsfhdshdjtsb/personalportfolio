@@ -1,34 +1,37 @@
 body{
     margin:0;
 	padding:0;
+	background-color: #FEFAF0;
+	
 }
 *{
 	font-family: "Inter";
 }
-/* @media(max-width:1500px){
-	.Header h1{
-		width: 300px;
-	}
+.Projects{
+
+	text-align: center;
+	padding-top: 25vh;
+	margin-top: -50px;
+	padding-bottom: 33vh;
+	font-size: 1rem;
+	border-top: 5px solid #E1C16E;
+	background-color: #FEFAF0;
+	backface-visibility: hidden;
+	transform: translateZ(10px) ;
 }
-@media(max-width: 1200px) {
-	.Header .Text{
-		margin-left: 5vw;
-	}
-	.Header .imageAndSocials {
-		margin-right: 5vw;
-	}
+.Wrapper{
+	height:100vh;
+	overflow-y: auto;
+	perspective: 20px;
+	overflow-x: hidden;
+}
+.Spacer{
+	color:black;
+	height: 100px;
+	transform: translateZ(10px) ;
 }
 @media (max-width:820px){
-	.Header .Background{
-		flex-direction: column;
-		align-items: center;
+    .Projects{
+		margin-top: 250px;
 	}
-	.Header .imageAndSocials{
-		top:0;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.Header.Text{
-		margin-left: 0;
-	}
-} */
+}

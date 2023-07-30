@@ -13,7 +13,6 @@ export default function Header(){
                     <img src= {portrait}></img>
                     <Socials />
                 </div>
-                
             </div>
             
             <div class="Diagonal"></div>
